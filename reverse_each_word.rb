@@ -5,7 +5,7 @@ def reverse_each_word(words)
   sentence = []
   words.split(",")
   words.each do |word|
-    puts "#{word}.reverse"
+    sentence << #{word}.reverse
   end
   sentence
 end  
